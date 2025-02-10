@@ -4,7 +4,6 @@ const resultPlain = require('../__fixtures__/resultPlain.js');
 const resultJSON = require('../__fixtures__/resultJSON.js');
 const gendiff = require('../src/index.js');
 
-
 const testList = [
   'yml',
   'json',
