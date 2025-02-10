@@ -8,7 +8,7 @@
 ## Вычислитель отличий
 Данный проект представляет собой консольную утилиту для сравнения двух объектов. Объекты считываются только из файлов форматов JSON, YML и YAML.
 
-# Пример работы
+## Пример работы
 
 [![asciicast](https://asciinema.org/a/xuX8nGI8Z6If1bRalGrFzaZCU.svg)](https://asciinema.org/a/xuX8nGI8Z6If1bRalGrFzaZCU)
 
