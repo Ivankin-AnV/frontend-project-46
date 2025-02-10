@@ -22,7 +22,7 @@ $ make install
 ```
 ## Запуск
 
-```
+```bash
 $ gendiff -h
 
 Usage: gendiff [options] <filepath1> <filepath2>
@@ -35,7 +35,7 @@ Options:
   -h, --help           display help for command
 ```
 
-```
+```bash
 $ gendiff __fixtures__/file1.json __fixtures__/file2.yaml
 
     {
@@ -84,7 +84,7 @@ $ gendiff __fixtures__/file1.json __fixtures__/file2.yaml
     }
 ```
 
-```
+```bash
 $ gendiff -f plain __fixtures__/file1.json __fixtures__/file2.yaml
 
     Property 'common.follow' was added with value: false
