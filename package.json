@@ -2,22 +2,39 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Ivankin-AnV/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ivankin-AnV/frontend-project-46/actions)",
+  "type": "module",
   "main": "src/index.js",
+"scripts": {
+  "test": "npx jest"
+  
+},
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
+
   "author": "Ivankin Anton",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.97.1"
   },
   "devDependencies": {
+    "@jest/globals": "^29.5.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
-  }
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivankin-AnV/frontend-project-46.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivankin-AnV/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/Ivankin-AnV/frontend-project-46#readme"
+  
 }
