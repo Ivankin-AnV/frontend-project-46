@@ -82,7 +82,7 @@ $ gendiff __fixtures__/file1.json __fixtures__/file2.yaml
             fee: 100500
         }
     }
-``
+```
 
 ```
 $ gendiff -f plain __fixtures__/file1.json __fixtures__/file2.yaml
